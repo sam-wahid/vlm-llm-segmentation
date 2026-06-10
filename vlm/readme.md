@@ -1,10 +1,10 @@
-Introduction to VLM-based Knowledge Distillation
+#Introduction to VLM-based Knowledge Distillation
 
 Vision-Language Models (VLMs) are a class of deep learning models that jointly understand visual and textual data. These models are widely used in tasks such as Visual Question Answering (VQA), image captioning, and multimodal retrieval.
 
 However, state-of-the-art VLMs are typically large and computationally expensive. To address this limitation, Knowledge Distillation (KD) is used to transfer knowledge from a large VLM (teacher) to a smaller, efficient model (student).
 
-Vision-Language Models (VLMs)
+#Vision-Language Models (VLMs)
 
 VLMs learn a shared representation between images and text. They usually consist of:
 
@@ -12,12 +12,12 @@ VLMs learn a shared representation between images and text. They usually consist
 - Text Encoder (e.g., Transformer, BERT) → processes language input
 - Fusion Module → combines visual and textual features
 
-Example Tasks:
+#Example Tasks:
 
 - Visual Question Answering (VQA)
 - Image Captioning
 
- Knowledge Distillation in VLMs
+ #Knowledge Distillation in VLMs
 
 In VLM-based Knowledge Distillation, a teacher VLM guides a student VLM by transferring:
 
@@ -25,9 +25,7 @@ In VLM-based Knowledge Distillation, a teacher VLM guides a student VLM by trans
 - Intermediate feature representations
 - Cross-modal relationships
 
----
-
- Why KD for VLMs?
+ #Why KD for VLMs?
 
 - Reduces model size
 - Improves inference speed
