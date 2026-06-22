@@ -1,1 +1,45 @@
+# Core Deep Learning
+torch
+torchvision
+torchaudio
 
+# Transformers & Models
+transformers
+timm
+
+# Hugging Face ecosystem
+huggingface_hub
+datasets
+
+# ONNX (if using export / inference)
+onnxruntime==1.20.1
+onnx==1.20.1
+
+# Image & Data Processing
+Pillow
+opencv-python
+
+# Scientific computing
+numpy
+scipy
+pandas
+
+# Visualization
+matplotlib
+seaborn
+
+# Progress & utilities
+tqdm
+
+# Evaluation metrics
+jiwer
+
+# JSON / handling
+jsonlines
+
+# File handling
+pathlib
+
+# Notebook support (optional but useful)
+jupyter
+ipykernel
