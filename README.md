@@ -26,9 +26,9 @@ The framework currently spans three tracks, each following a consistent pipeline
 
 | Track | Focus | Status |
 |---|---|---|
-| **VLM** | Distilling vision-language backbones (CLIP, DINOv1/v2, SigLIP) and task-specific VLMs (e.g. BLIP for medical VQA) into compact student networks | 🟢 Active |
-| **LLM** | Distilling large language models for specialized-domain text tasks | 🟡 Planned |
-| **SAM** | Distilling Segment Anything Model variants for efficient, domain-specific segmentation | 🟡 Planned |
+| **VLM** | Distilling vision-language backbones (CLIP, DINOv1/v2, SigLIP) and task-specific VLMs (e.g. BLIP for medical VQA) into compact student networks | Active |
+| **LLM** | Distilling large language models for specialized-domain text tasks |  Planned |
+| **SAM** | Distilling Segment Anything Model variants for efficient, domain-specific segmentation |  Planned |
 
 ---
 
@@ -53,7 +53,7 @@ vlm-llm-segmentation/
     │   └── README.md
     │
     └── LLM/
-        └── README.md          # coming soon
+        └── README.md          
 ```
 
 > A `Notebooks/SAM/` track for Segment Anything Model distillation is planned — see [Roadmap](#roadmap).
@@ -107,7 +107,7 @@ jupyter notebook
 | `VLM/VQA-RAD-kd.ipynb` | Knowledge distillation for medical Visual Question Answering on the VQA-RAD dataset |
 | `VLM/VQA-RAD-kd(BLIP-Mobilenetv2).ipynb` | BLIP → MobileNetV2 distillation for lightweight medical VQA inference |
 
-> ⚠️ Each notebook is self-contained (dataset download, teacher/student setup, training, evaluation) — run them independently based on the model/dataset you're interested in.
+>  Each notebook is self-contained (dataset download, teacher/student setup, training, evaluation) — run them independently based on the model/dataset you're interested in.
 
 Datasets and pretrained teacher checkpoints are loaded directly from [HuggingFace Datasets](https://huggingface.co/datasets) and [HuggingFace Hub](https://huggingface.co/models) — no manual download required.
 
@@ -165,13 +165,6 @@ Distillation results compare **teacher** (large foundation model) vs. **student*
 | Representation Benchmark | DINOv1 | — | — | — | — |
 | Representation Benchmark | DINOv2 | — | — | — | — |
 
-### Language Model Distillation (LLM)
-
-*Coming soon.*
-
-### Segmentation Distillation (SAM)
-
-*Coming soon.*
 
 ---
 
