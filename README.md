@@ -159,8 +159,7 @@ Distillation results compare **teacher** (large foundation model) vs. **student*
 | Task / Dataset | Teacher | Student | Teacher Baseline | Student baseline | Student after KD |
 |---|---|---|---|---|---|
 | Medical VQA — VQA-RAD | BLIP | MobileNetV2 | — | — | — |
-| Image Classification — Beans | merve/beans-vit-224
- | Mobilenetv2 | 93.75% |33.59% | 59.38% |
+| Image Classification — Beans | merve/beans-vit-224| Mobilenetv2 | 93.75% |33.59% | 59.38% |
 | Representation Benchmark | CLIP | — | — | — | — |
 | Representation Benchmark | SigLIP | — | — | — | — |
 | Representation Benchmark | DINOv1 | — | — | — | — |
