@@ -156,7 +156,7 @@ Distillation results compare **teacher** (large foundation model) vs. **student*
 
 ### Vision-Language Distillation (VLM)
 
-| Task / Dataset | Teacher | Student | Teacher Metric | Student Metric | Retention (%) |
+| Task / Dataset | Teacher | Student | Teacher Baseline | Student baseline | Student after KD |
 |---|---|---|---|---|---|
 | Medical VQA — VQA-RAD | BLIP | MobileNetV2 | — | — | — |
 | Image Classification — Beans | — | — | — | — | — |
