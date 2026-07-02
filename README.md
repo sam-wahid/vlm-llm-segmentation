@@ -43,6 +43,7 @@ vlm-llm-segmentation/
 └── Notebooks/
     ├── VLM/
     │   ├── CLIP_benchmark.ipynb
+    |   ├── Openended-VQA-RAD.ipynb
     │   ├── siglipbenchmark.ipynb
     │   ├── dinov1benchmark.ipynb
     │   ├── dinov2benchmark.ipynb
@@ -161,6 +162,7 @@ Distillation results compare **teacher** (large foundation model) vs. **student*
 | Medical VQA — VQA-RAD | CLIP vit L/14 | MobileNetV2 | 69.44% | 56.02%| 58.33% |
 | Medical VQA — VQA-RAD | BLIP | MobileNetV2 | 57.87% | 46.76%| 54.17% |
 | Image Classification — Beans | merve/beans-vit-224| Mobilenetv2 | 93.75% |33.59% | 59.38% |
+| Medical VQA — VQA-RAD(OE) | BLIP-2 | BLIP VQA BASE | 78.84% | 66.31%| 73.06% |
 | Representation Benchmark | CLIP | — | — | — | — |
 | Representation Benchmark | SigLIP | — | — | — | — |
 | Representation Benchmark | DINOv1 | — | — | — | — |
