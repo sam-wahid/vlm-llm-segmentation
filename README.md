@@ -108,7 +108,7 @@ jupyter notebook
 | `VLM/KD-Beansdataset.ipynb` | Knowledge distillation pipeline evaluated on the Beans (plant disease) image classification dataset |
 | `VLM/VQA-RAD-kd.ipynb` | Knowledge distillation for medical Visual Question Answering on the VQA-RAD dataset |
 | `VLM/VQA-RAD-kd(BLIP-Mobilenetv2).ipynb` | BLIP → MobileNetV2 distillation for lightweight medical VQA inference |
-
+| `VLM/VQAv2-Open ended(Qwen).ipynb` |     |Qwen2.5-VL-7B → Qwen3-VL-2B distillation (QLoRA teacher fine-tuning + LoRA KD) for open-ended general-domain VQA on VQAv2|
 >  Each notebook is self-contained (dataset download, teacher/student setup, training, evaluation) — run them independently based on the model/dataset you're interested in.
 
 Datasets and pretrained teacher checkpoints are loaded directly from [HuggingFace Datasets](https://huggingface.co/datasets) and [HuggingFace Hub](https://huggingface.co/models) — no manual download required.
@@ -164,8 +164,7 @@ Distillation results compare **teacher** (large foundation model) vs. **student*
 | Medical VQA — VQA-RAD | BLIP | MobileNetV2 | 57.87% | 46.76%| 54.17% |
 | Image Classification — Beans | merve/beans-vit-224| Mobilenetv2 | 93.75% |33.59% | 59.38% |
 | Medical VQA — VQA-RAD(OE) | BLIP-2 | BLIP VQA BASE | 78.84% | 66.31%| 73.06% |
-
-
+| General VQA(Open ended)-VQAv2 | Qwen2.5-VL-7B-Instruct | Qwen3-VL-2B-Instruct | 95.04 | 81.80 | 88.92 |
 
 ---
 
