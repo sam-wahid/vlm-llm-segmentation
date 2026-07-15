@@ -164,7 +164,7 @@ Distillation results compare **teacher** (large foundation model) vs. **student*
 | Medical VQA — VQA-RAD | BLIP | MobileNetV2 | 57.87% | 46.76%| 54.17% |
 | Image Classification — Beans | merve/beans-vit-224| Mobilenetv2 | 93.75% |33.59% | 59.38% |
 | Medical VQA — VQA-RAD(OE) | BLIP-2 | BLIP VQA BASE | 78.84% | 66.31%| 73.06% |
-| General VQA(Open ended)-VQAv2 | Qwen2.5-VL-7B-Instruct | Qwen3-VL-2B-Instruct | 95.04 | 81.80 | 88.92 |
+| General VQA(Open ended)-VQAv2 | Qwen2.5-VL-7B-Instruct | Qwen3-VL-2B-Instruct | 95.04% | 81.80% | 88.92% |
 
 ---
 
