@@ -50,6 +50,7 @@ vlm-llm-segmentation/
     │   ├── KD-Beansdataset.ipynb
     │   ├── VQA-RAD-kd.ipynb
     │   ├── VQA-RAD-kd(BLIP-Mobilenetv2).ipynb
+    |   ├── VQAv2-Open ended(Qwen).ipynb
     │   ├── VQA_RAD_Report.docx
     │   └── README.md
     │
